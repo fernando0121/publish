@@ -1,0 +1,25 @@
+/* About.css */
+.container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.container img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 400px;
+    max-height: 250px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+p{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#list{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bold{
+   font-size: 1.15rem;
+}

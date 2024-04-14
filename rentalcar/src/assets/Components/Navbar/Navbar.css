@@ -1,0 +1,75 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #000000ba;
+}
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Other styles remain unchanged */
+
+  
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px ;
+  }
+  
+  nav p {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    background-color: white;
+   
+  }
+  
+  .register {
+    background-color: rgba(151, 111, 36, 0.795);
+    color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  #dark {
+    font-size: 2em;
+    position: absolute;
+    right: 40px; /* Adjust the value as needed for proper alignment */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 700px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav p {
+      flex-basis: calc(100% - 20px);
+      margin: 5px 10px;
+    }
+  }
+  #signup, #register{
+    background: linear-gradient(180deg, #00000039 , #FFFFFF);
+    border-radius: 5px;
+    margin-left: 0px;
+  }
+  #nodec{
+    text-decoration: none;
+  }

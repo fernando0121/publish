@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.booking {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+
+.booking .content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.booking .content input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) of the container */
+    max-width: 100vh;
+    background-color: hsla(208, 100%, 97%, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #card p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: -5px; /* Adjust margin to compensate for input padding */
+  }
+  
+  #card input {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+input, #choose{
+    border: none;
+    font-size: 1em;
+}
+#submit{
+    margin-left: 35%;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#darkimg {
+    height: 50px;
+    width: 50px;
+    position: absolute; /* Position the image relative to its nearest positioned ancestor */
+    top: 250px; /* Adjust the top position as needed */
+    right: 20px; /* Align the image to the right side */
+    z-index: 9999; /* Ensure the image appears above other content */
+    box-shadow: none;
+}
+.dark-mode {
+  background: #000;
+  color: #fff;
+}
+
+.dark-card {
+  background: #333;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+
+#submit:hover{
+   background-color: rgba(0, 0, 0, 0.268);
+   color: white;
+   font-size: 2em;
+   margin-left: 32%;
+}
+@media (max-width: 700px) {
+    #card{
+       margin-top: 70%;
+    }
+}
